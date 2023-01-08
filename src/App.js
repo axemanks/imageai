@@ -31,7 +31,7 @@ function App() {
       <InputBox label={"Amount (1 for now)"} setAttribute={setNumber} />
       <InputBox label={"Size (default 256x256)"} setAttribute={setSize} />
       <button className="main-button" onClick={() => generateImage()}>
-        Generate
+        Generate Image
       </button>
     </main>
   );
